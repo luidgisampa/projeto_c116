@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Minha primeira pagina na web usando python, javascript, html e css 
+        </title>
+    </head>
+    <body>
+        <h2>
+            Ola, eu sou o {{nome_estudante}}
+        </h2>
+        <h3>
+            tenho {{idade_estudante}} anos de idade
+        </h3>
+
+        <h4>
+            vivo no Brasil, expecificamente no Ceará, adoro programar, jogar e desenhar, meus jogos favoritos são {{jogo_favorito1}} e {{jogo_favorito2}}.
+        </h4>
+        <img src="{{url_for('static', filename='hollow knight.jpg')}}">
+        <img src="{{url_for('static', filename='terraria.jpg')}}">
+
+        <h4>
+            estou adorando começar a criar sites com python, ate agora parece ser divertido. Mas, acredito que ainda vai complicar bastante, já que futuramente terei de implementar uma inteligencia artificial nesse site.
+        </h4>
+    </body>
+</html>
